@@ -1,0 +1,31 @@
+{
+  "name": "@serenityjs/executable",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "bun build src/index.ts --compile --outfile=serenityjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@serenityjs/binarystream": "^2.5.2",
+    "@serenityjs/block": "^0.2.1",
+    "@serenityjs/command": "^0.2.1",
+    "@serenityjs/data": "^0.2.1",
+    "@serenityjs/emitter": "^0.2.1",
+    "@serenityjs/entity": "^0.2.1",
+    "@serenityjs/item": "^0.2.1",
+    "@serenityjs/launcher": "^0.2.1",
+    "@serenityjs/logger": "^0.2.1",
+    "@serenityjs/network": "^0.2.1",
+    "@serenityjs/plugins": "^0.2.1",
+    "@serenityjs/protocol": "^0.2.1",
+    "@serenityjs/raknet": "^0.2.1",
+    "@serenityjs/server-ui": "^0.2.1",
+    "@serenityjs/world": "^0.2.1"
+  }
+}
