@@ -1,4 +1,5 @@
 const SERENITY_PACKAGES = [
+  "@serenityjs/typescript-config",
   "@serenityjs/launcher",
   "@serenityjs/block",
   "@serenityjs/item",
@@ -13,9 +14,17 @@ const SERENITY_PACKAGES = [
   "@serenityjs/network",
   "@serenityjs/emitter",
   "@serenityjs/data",
-  "@serenityjs/binarystream"
+  "@serenityjs/nbt",
+]
+
+const COMMON_PACKAGES = [
+  "@serenityjs/binarystream",
+  "@types/node",
+  "typescript",
+  "ts-node",
 ]
 
 export {
-  SERENITY_PACKAGES
+  SERENITY_PACKAGES,
+  COMMON_PACKAGES,
 }

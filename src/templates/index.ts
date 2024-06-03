@@ -1,2 +1,2 @@
-export * from "./package-json"
-export * from "./index-js"
+export * from "./index-ts"
+export * from "./tsconfig-json"
