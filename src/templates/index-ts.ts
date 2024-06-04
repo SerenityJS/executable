@@ -1,4 +1,7 @@
-const INDEX_TEMPLATE = /* js */ `import { serenity } from "@serenityjs/launcher"
+const INDEX_TEMPLATE = /* js */ `import { Serenity } from "@serenityjs/launcher"
+
+// Create a new Serenity instance
+const serenity = new Serenity()
 
 // Start the launcher
 serenity.start()
