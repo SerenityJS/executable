@@ -92,8 +92,8 @@ if (nodeCheck()) {
       } else {
         // Check if the launcher is up to date with the selected dist tag
         // If not, update and install the packages
-        const latest = execSync(`npm info @serenityjs/launcher@${distTag} version`, { encoding: "utf-8" }).trim()
-        const current = execSync("npm pkg get version", { encoding: "utf-8", cwd: resolve(process.cwd(), "node_modules", "@serenityjs", "launcher") }).trim().replace(/"/g, "")
+        const latest = execSync(`npm info @serenityjs/serenity@${distTag} version`, { encoding: "utf-8" }).trim()
+        const current = execSync("npm pkg get version", { encoding: "utf-8", cwd: resolve(process.cwd(), "node_modules", "@serenityjs", "serenity") }).trim().replace(/"/g, "")
 
         // Check if the launcher is up to date
         if (current !== latest) {

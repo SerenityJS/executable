@@ -1,6 +1,6 @@
 const SERENITY_PACKAGES = [
   "@serenityjs/typescript-config",
-  "@serenityjs/launcher",
+  "@serenityjs/serenity",
   "@serenityjs/block",
   "@serenityjs/item",
   "@serenityjs/entity",
